@@ -15,7 +15,7 @@ El nombre y el idioma se deben recoger mediante un formulario. --%>
 	<form method="post" action="saludoIdioma.jsp">
 		Dime tu nombre:<input type="text" name="nombre">
 		Idioma del saludo:<select id="desplegable" name="idiomas">
-			<option>Español</option>
+			<option>Espanol</option>
 			<option>Inglés</option>
 			<option>Francés</option>
 			</select>
