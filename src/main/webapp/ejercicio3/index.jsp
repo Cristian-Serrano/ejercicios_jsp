@@ -9,9 +9,9 @@
 <body>
 	<form method="post" action="calcularMedia.jsp">
 		Dime tus notas:<br>
-		Nota 1:<input type="number" name="nota1">
-		Nota 2:<input type="number" name="nota2">
-		Nota 3:<input type="number" name="nota3">
+		Nota 1:<input type="text" name="nota1">
+		Nota 2:<input type="text" name="nota2">
+		Nota 3:<input type="text" name="nota3">
 		
 		<input type="submit"></input>
 	</form>
