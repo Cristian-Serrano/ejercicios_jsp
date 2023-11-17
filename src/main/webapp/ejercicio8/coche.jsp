@@ -9,14 +9,8 @@
 <body>
 	<% 
 	String tapiceria = request.getParameter("tapiceria");
-	String material = request.getParameter("material");
-	if(tapiceria.equals("Blanco")){
-		out.println("Hola "+nombre);
-	} else if(tapiceria.equals("Blanco")){
-		out.println("Hello "+nombre);
-	} else if(request.getParameter("idiomas").equals("Francés")){
-		out.println("Salut "+nombre);
-	}
+	String material = request.getParameter("molduras");
+	out.println("El interior es de color "+tapiceria+" y el material de las molduras es "+molduras);
 		%>
 </body>
 </html>
