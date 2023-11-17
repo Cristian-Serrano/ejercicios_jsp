@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
+<%--
 Calendar calendar = Calendar.getInstance();
 
 calendar.set(Calendar.YEAR, 1905);
@@ -32,6 +32,6 @@ for (int dia = 1; dia <= numDays; dia++){
 }
 
 
-%>
+--%>
 </body>
 </html>
