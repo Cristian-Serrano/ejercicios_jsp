@@ -9,6 +9,7 @@
 <body>
 	<% 
 	String tapiceria = request.getParameter("tapiceria");
+	String material = request.getParameter("material");
 	if(tapiceria.equals("Blanco")){
 		out.println("Hola "+nombre);
 	} else if(tapiceria.equals("Blanco")){
